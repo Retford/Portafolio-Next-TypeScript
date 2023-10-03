@@ -4,14 +4,14 @@ import { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-  title: 'Portfolio TarreDev - NextJS 13',
-  description: 'Portfolio animated ',
+  title: 'Portafolio RetfordJB - NextJS 13',
+  description: 'Portfolio animated',
 }
 
 
 export default function Home() {
   return (
-    <main className='bg-[#393A47] h-[100vh]'>
+    <main className='bg-black h-[100vh]'>
       <Transition />
       <Cover />
     </main>

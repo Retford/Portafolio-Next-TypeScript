@@ -11,16 +11,18 @@ export function About() {
     const [index, setIndex] = useState(0)
 
     return (
-        <div className="items-center min-h-screen px-6 mx-auto align-middle mt-36 md:mt-0 md:flex md:max-w-4xl pb-36 md:pb-0">
+        <div className="items-center min-h-screen px-6 mx-auto align-middle mt-36 md:mt-0 md:flex justify-center pb-36 md:pb-0">
             <Avatar />
 
             <motion.div
                 initial={motionTransitionsAbout.initial}
                 animate={motionTransitionsAbout.animate}
                 transition={motionTransitionsAbout.transition}
+                className="lg:flex lg:justify-center lg:items-center lg:gap-4"
+
             >
-                <h1 className="mb-6 md:text-4xl">Creando webs con <br /> <span className="text-secondary">diseños espectaculares</span></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula. </p>
+                {/* <h1 className="mb-6 md:text-4xl">Creando webs con <br /> <span className="text-secondary">diseños espectaculares</span></h1>
+                <p>Egresado de la carrera Ingeniería de Sistemas, apasionado por crear sitios web atractivos y funcionales. Mi enfoque está en convertir diseños en código limpio y eficiente, siempre buscando oportunidades para aprender y crecer en este campo. Estoy listo para enfrentar desafíos y colaborar en proyectos web emocionantes. </p>
 
                 <div className="grid justify-between grid-cols-2 gap-3 my-8 md:flex md:grid-cols-4 md:gap-6">
                     {dataCounter.map(({ id, endCounter, text, lineRight, lineRightMobile }) => (
@@ -35,9 +37,9 @@ export function About() {
                             </div>
                         </div>
                     ))}
-                </div>
+                </div> */}
 
-                <div className="flex flex-col mt-10 mb-3 md:flex-row justify-evenly md:mt-28 md:mb-5">
+                <div className="flex flex-col mt-44 lg:mt-0 mb-3 md:flex-row lg:flex-col justify-evenly md:mt-28 md:mb-5">
                     {dataAboutSkills.map((dataText, itemIndex) => {
                         const { id, text } = dataText;
 
@@ -59,8 +61,9 @@ export function About() {
                 </div>
                 <div className="max-w-4xl p-4 mx-auto bg-secondary/20 rounded-xl">
                     {dataAboutSkills[index].skills.map((items, index) => (
-                        <div key={index} className="flex justify-center max-w-md gap-4 mx-auto">
-                            <span>{items.title} {" "} </span> - <span>{items.date}</span>
+                        <div key={index} className="flex justify-center lg:max-w-xl gap-4 mx-auto flex-wrap">
+                            <span>{items.title}</span> - <span>{items.date}</span>
+                            <p>{items?.description}</p>
                         </div>
                     ))}
                 </div>

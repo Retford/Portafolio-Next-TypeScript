@@ -91,4 +91,94 @@ export const cardContent = [
       },
     ]
   },
+  {
+    id: 5,
+    title: "E-Commerce React",
+    description:
+      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
+    imageUrl: "/work-5.jpeg",
+    skills: [
+      {
+        icon: <SiNextdotjs size="40" />
+      },
+      {
+        icon: <SiTailwindcss size="40" />
+      },
+      {
+        icon: <SiGithub size="40" />
+      },
+    ]
+  },
+  {
+    id: 6,
+    title: "E-Commerce React",
+    description:
+      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
+    imageUrl: "/work-5.jpeg",
+    skills: [
+      {
+        icon: <SiNextdotjs size="40" />
+      },
+      {
+        icon: <SiTailwindcss size="40" />
+      },
+      {
+        icon: <SiGithub size="40" />
+      },
+    ]
+  },
+  {
+    id: 7,
+    title: "E-Commerce React",
+    description:
+      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
+    imageUrl: "/work-5.jpeg",
+    skills: [
+      {
+        icon: <SiNextdotjs size="40" />
+      },
+      {
+        icon: <SiTailwindcss size="40" />
+      },
+      {
+        icon: <SiGithub size="40" />
+      },
+    ]
+  },
+  {
+    id: 8,
+    title: "E-Commerce React",
+    description:
+      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
+    imageUrl: "/work-5.jpeg",
+    skills: [
+      {
+        icon: <SiNextdotjs size="40" />
+      },
+      {
+        icon: <SiTailwindcss size="40" />
+      },
+      {
+        icon: <SiGithub size="40" />
+      },
+    ]
+  },
+  {
+    id: 9,
+    title: "E-Commerce React",
+    description:
+      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
+    imageUrl: "/work-5.jpeg",
+    skills: [
+      {
+        icon: <SiNextdotjs size="40" />
+      },
+      {
+        icon: <SiTailwindcss size="40" />
+      },
+      {
+        icon: <SiGithub size="40" />
+      },
+    ]
+  },
 ];
