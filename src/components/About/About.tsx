@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { dataAboutSkills, dataCounter } from "./About.data";
 import CountUp from "react-countup";
 import { useState } from "react";
-import { BiDownArrow, BiLeftArrow } from "react-icons/bi";
+import { BiDownArrow, BiLeftArrow, BiRightArrow } from "react-icons/bi";
 
 export function About() {
     const [index, setIndex] = useState(0)
@@ -18,13 +18,13 @@ export function About() {
                 initial={motionTransitionsAbout.initial}
                 animate={motionTransitionsAbout.animate}
                 transition={motionTransitionsAbout.transition}
-                className="lg:flex lg:justify-center lg:items-center lg:gap-4"
+                className="lg:flex lg:justify-center lg:items-start lg:gap-8 lg:mt-40 lg:mb-16"
 
             >
-                {/* <h1 className="mb-6 md:text-4xl">Creando webs con <br /> <span className="text-secondary">diseños espectaculares</span></h1>
-                <p>Egresado de la carrera Ingeniería de Sistemas, apasionado por crear sitios web atractivos y funcionales. Mi enfoque está en convertir diseños en código limpio y eficiente, siempre buscando oportunidades para aprender y crecer en este campo. Estoy listo para enfrentar desafíos y colaborar en proyectos web emocionantes. </p>
+                {/* <h1 className="mb-6 md:text-4xl">Acerca de <br /> <span className="text-secondary">MI</span></h1>
+                <p>Soy una persona con competencias que ayudan a cumplir los objetivos de dónde me encuentre, me gusta estar en constante aprendizaje y si detecto habilidades carentes en mí, trabajo en ellos hasta obtenerlos, tengo la disponibilidad para mejorar cada día más, soy comprometido y responsable con mis actividades.</p> */}
 
-                <div className="grid justify-between grid-cols-2 gap-3 my-8 md:flex md:grid-cols-4 md:gap-6">
+                {/* <div className="grid justify-between grid-cols-2 gap-3 my-8 md:flex md:grid-cols-4 md:gap-6">
                     {dataCounter.map(({ id, endCounter, text, lineRight, lineRightMobile }) => (
                         <div key={id} className={`${lineRight && 'ltr'}`}>
                             <div className={`${lineRight && 'px-4 border-2 border-transparent md:border-e-gray-100'} ${lineRightMobile && 'border-e-gray-100'}`}>
@@ -51,7 +51,14 @@ export function About() {
                             >
                                 <p className="mr-4 text-md md:text-lg">{text}</p>
                                 {index === id ? (
-                                    <BiDownArrow />
+                                    <>
+                                        <span className="hidden lg:block">
+                                            <BiRightArrow />
+                                        </span>
+                                        <span className="lg:hidden">
+                                            <BiDownArrow />
+                                        </span>
+                                    </>
                                 ) : (
                                     <BiLeftArrow />
                                 )}
@@ -59,11 +66,16 @@ export function About() {
                         )
                     })}
                 </div>
-                <div className="max-w-4xl p-4 mx-auto bg-secondary/20 rounded-xl">
+                <div className="flex flex-col gap-4 max-w-4xl p-4 mx-auto bg-secondary/20 rounded-xl lg:min-h-[560px]">
                     {dataAboutSkills[index].skills.map((items, index) => (
-                        <div key={index} className="flex justify-center lg:max-w-xl gap-4 mx-auto flex-wrap">
-                            <span>{items.title}</span> - <span>{items.date}</span>
-                            <p>{items?.description}</p>
+                        <div key={index} className="flex lg:max-w-xl gap-4 mx-auto flex-wrap">
+                            <h3 className="text-[#00FF00] font-black">
+                                <span>{items.title}</span> | <span>{items.date}</span>
+                            </h3>
+                            {items?.description.split('\n').map((line, lineIndex) => (
+                                <p key={lineIndex} className="text-sm w-full">{line}</p>
+                            )
+                            )}
                         </div>
                     ))}
                 </div>

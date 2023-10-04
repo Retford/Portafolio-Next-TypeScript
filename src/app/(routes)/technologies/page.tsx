@@ -1,12 +1,12 @@
-import { Services } from "@/components/Services/Services";
+import { Technologies } from "@/components/Technologies/Technologies";
 import { Transition } from "@/components/Transition/Transition";
 
 // Cambiar por tecnologías
-export default function page() {
+export default function TechnologiesPage() {
   return (
     <div>
       <Transition />
-      <Services />
+      <Technologies />
     </div>
   )
 }

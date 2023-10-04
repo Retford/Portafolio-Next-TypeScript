@@ -6,7 +6,7 @@ import { socialNetworks } from './dataHeader'
 
 export function Header() {
     return (
-        <div className='absolute z-20 inline-block w-full top-5 md:top-10'>
+        <div className='absolute px-8 z-20 inline-block w-full top-5 md:top-10'>
             <motion.div variants={fadeIn('up', 0.5)} initial="hidden" animate="show" exit="hidden">
                 <div className="container justify-between mx-auto md:flex">
                     <Link href="/">

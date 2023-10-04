@@ -25,7 +25,7 @@ export function Introduction() {
                             <span className="text-2xl lg:text-4xl">Retford O&#39;briam</span><br />
                             <span className="text-secondary mb-5 text-[1.75rem] lg:text-5xl leading-tight md:mb-10">Desarrollador FrontEnd</span>
                         </h1>
-                        <p className="max-w-sm mb-10 text-lg md:max-w-2xl md:mx-0 md:mb-16 md:text-xl">
+                        <p className="max-w-sm mb-10 text-lg sm:max-w-full md:max-w-xs lg:max-w-sm xl:max-w-lg 2xl:max-w-2xl md:mx-0 md:mb-16 md:text-base lg:text-xl">
                             Egresado de la carrera Ingeniería de Sistemas, apasionado por crear sitios web atractivos y funcionales. Mi enfoque está en convertir diseños en código limpio y eficiente, siempre buscando oportunidades para aprender y crecer en este campo. Estoy listo para enfrentar desafíos y colaborar en proyectos web emocionantes.
                         </p>
 
