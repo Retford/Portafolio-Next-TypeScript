@@ -9,10 +9,6 @@ export const socialNetworks = [
     logo: <RiLinkedinBoxFill size="40" />,
     src: "https://www.linkedin.com/in/retford-o-briam-julcarima-balde%C3%B3n/",
   },
-  // {
-  //   logo: <RiTiktokLine size="40" />,
-  //   src: "https://tiktok.com/",
-  // },
   {
     logo: <RiGithubFill size="40" />,
     src: "https://github.com/Retford",

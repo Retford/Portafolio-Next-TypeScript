@@ -29,8 +29,6 @@ export function Project() {
 
     return (
         <div className="h-screen md:mx-40">
-            <AvatarWorks />
-            <Circle />
             <div className="grid pt-8 pb-32 md:min-h-screen mt-28 place-items-center md:mt-32 md:pt-0">
                 <div>
                     <motion.h1

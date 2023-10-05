@@ -7,8 +7,8 @@ import { Header } from '@/components/Header'
 const prosto = Prosto_One({ subsets: ['latin'], weight: "400" })
 
 export const metadata: Metadata = {
-  title: 'Portafolio Retford JB - NextJS 13',
-  description: 'Portfolio animated',
+  title: 'Portafolio Retford JB',
+  description: 'Portafolio hecho con NextJS',
 }
 
 export default function RootLayout({

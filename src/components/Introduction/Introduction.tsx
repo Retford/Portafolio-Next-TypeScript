@@ -13,7 +13,7 @@ export function Introduction() {
                         animate="show"
                         exit="hidden"
                     >
-                        <Image src="/assets/home-4.png" priority width="800" height="600" alt="Avatar" />
+                        <Image src="/assets/home-4.png" priority width="800" height="600" alt="Avatar" className='rounded-[45%] sombra' />
                     </motion.div>
 
                     <motion.div variants={fadeIn("left", 0.5)}

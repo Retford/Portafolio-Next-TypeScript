@@ -9,15 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // secondary: "#F13024",
         secondary: "#a941ff",
       },
       backgroundImage: {
         explosion: "url('/assets/bg-explosion.png')",
       },
-      // animation: {
-      //   "bounce-slow": "bounce 3s infinite ",
-      // },
     },
   },
   plugins: [],

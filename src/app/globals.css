@@ -28,3 +28,8 @@ body {
   .swiper-pagination-bullet {
   background-color: #a941ff;
 }
+
+.sombra {
+  filter: drop-shadow(0 0 150px #a941ff);
+}
+  

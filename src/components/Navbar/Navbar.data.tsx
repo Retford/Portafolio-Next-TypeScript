@@ -23,9 +23,5 @@ export const dataNavbar = [
     path: "/projects",
     icon: <LiaSuitcaseSolid size="30" />,
   },
-  {
-    name: "testimonials",
-    path: "/testimonials",
-    icon: <RiChatPollLine size="30" />,
-  },
+
 ];

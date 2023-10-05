@@ -2,19 +2,10 @@
 
 NextJS | Tailwind CSS | Framer Motion | TypeScript | Tsparticles
 
-
-
-
 **HOME**
-
 
 **ABOUT**
 
-
-**SERVICES**
-
+**TECHNOLOGIES**
 
 **WORKS**
-
-
-**TESTIMONIALS**
