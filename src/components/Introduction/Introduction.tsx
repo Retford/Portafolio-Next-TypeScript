@@ -1,6 +1,5 @@
 import { fadeIn } from '@/utils/motionTransitions'
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 
 export function Introduction() {
     return (
@@ -13,7 +12,7 @@ export function Introduction() {
                         animate="show"
                         exit="hidden"
                     >
-                        <Image src="/assets/home-4.png" priority width="800" height="600" alt="Avatar" className='rounded-[45%] sombra' />
+                        <img src="/assets/home-4.png" width="800" height="600" alt="Avatar" className='rounded-[45%] sombra' />
                     </motion.div>
 
                     <motion.div variants={fadeIn("left", 0.5)}
@@ -21,10 +20,12 @@ export function Introduction() {
                         animate="show"
                         exit="hidden"
                     >
+
                         <h1 className="mt-10 mb-5 md:mt-0 text-xl lg:text-2xl leading-tight md:mb-10">Hola, soy<br />
                             <span className="text-2xl lg:text-4xl">Retford O&#39;briam</span><br />
                             <span className="text-secondary mb-5 text-[1.75rem] lg:text-5xl leading-tight md:mb-10">Desarrollador FrontEnd</span>
                         </h1>
+
                         <p className="max-w-sm mb-10 text-lg sm:max-w-full md:max-w-xs lg:max-w-sm xl:max-w-lg 2xl:max-w-2xl md:mx-0 md:mb-16 md:text-base lg:text-xl">
                             Egresado de la carrera Ingeniería de Sistemas, apasionado por crear sitios web atractivos y funcionales. Mi enfoque está en convertir diseños en código limpio y eficiente, siempre buscando oportunidades para aprender y crecer en este campo. Estoy listo para enfrentar desafíos y colaborar en proyectos web emocionantes.
                         </p>
@@ -33,8 +34,8 @@ export function Introduction() {
                             <a href="/projects" className="px-6 py-3 my-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                                 Ver proyectos
                             </a>
-                            <a href="/contact" className="px-6 py-3 my-2 transition-all border-2 cursor-pointer text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary">
-                                Contacta conmigo
+                            <a href="/assets/CurriculumVitae.pdf" target='_blank' className="px-6 py-3 my-2 transition-all border-2 cursor-pointer text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary">
+                                Ver CV
                             </a>
                         </div>
                     </motion.div>

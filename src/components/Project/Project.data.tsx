@@ -1,4 +1,4 @@
-import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs, SiTestinglibrary, SiHtml5, SiBootstrap, SiJavascript, SiCss3, SiPrisma, SiC, SiHeadlessui, SiTypescript, SiStyledcomponents, SiFramer } from "react-icons/si";
+import { SiTailwindcss, SiReact, SiNextdotjs, SiHtml5, SiBootstrap, SiJavascript, SiCss3, SiPrisma, SiHeadlessui, SiTypescript, SiFramer } from "react-icons/si";
 
 export const cardContent = [
   {

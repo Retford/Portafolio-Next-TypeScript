@@ -1,5 +1,5 @@
-import { RiHome4Line, RiAccountPinCircleLine, RiServerLine, RiBriefcase2Line, RiChatPollLine } from "react-icons/ri";
-import { GiTechnoHeart, GiSuitcase } from "react-icons/gi";
+import { RiHome4Line, RiAccountPinCircleLine } from "react-icons/ri";
+import { GiTechnoHeart } from "react-icons/gi";
 import { LiaSuitcaseSolid } from "react-icons/lia";
 
 export const dataNavbar = [

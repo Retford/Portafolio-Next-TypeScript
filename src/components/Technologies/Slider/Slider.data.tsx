@@ -1,4 +1,4 @@
-import { SiCss3, SiFigma, SiHeadlessui, SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiPostman, SiReact, SiSpringboot, SiStyledcomponents, SiTailwindcss, SiWordpress } from 'react-icons/si'
+import { SiCss3, SiFigma, SiHeadlessui, SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiPostman, SiReact, SiSpringboot, SiTailwindcss, SiWordpress } from 'react-icons/si'
 import { FaJava } from 'react-icons/fa'
 
 const IconMaterialUI = (
