@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 export function Avatar() {
     return (
         <motion.div variants={fadeIn('left', 0.5)} initial="hidden" animate="show" exit="hidden" className="bottom-0 right-0 hidden md:inline-block md:fixed">
-            <img src="/assets/avatar-1.png" width="400" height="400" className="w-full h-full" alt="Particles" />
+            <img src="/assets/avatar-1.png" width="400" height="400" className="h-full" alt="Particles" />
         </motion.div>
     )
 }
