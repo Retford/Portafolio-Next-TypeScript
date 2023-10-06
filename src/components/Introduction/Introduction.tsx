@@ -6,7 +6,7 @@ export function Introduction() {
         <div className="w-full z-10">
             <div className="w-full h-full bg-gradient-to-r from-[#131424]/10 via-black/30 to-black/10">
                 <div className="container grid items-center h-full px-5 mx-auto md:grid-cols-2 md:text-left">
-                    <motion.div className="hidden w-auto h-auto mx-auto md:block"
+                    <motion.div className="hidden mx-auto md:block w-80 h-80 rounded-full overflow-hidden xl:w-[500px] xl:h-[500px] lg:w-[400px] lg:h-[400px]"
                         variants={fadeIn('right', 0.5)}
                         initial="hidden"
                         animate="show"
