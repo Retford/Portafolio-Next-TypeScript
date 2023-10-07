@@ -46,7 +46,8 @@ Competencia en el uso de la CDN Cloudflare para proporcionar seguridad, velocida
 Implementación exitosa de soluciones de comercio electrónico utilizando plataformas como Woo-Commerce.
 Diseño y desarrollo de sitios web responsivos y accesibles, aprovechando las tecnologías PHP, HTML, CSS y JavaScript para ofrecer experiencias de usuario de alta calidad.
 Experiencia en la implementación de sistemas de gestión de contenidos, como WordPress.  
-        `
+        `,
+        url: ''
       }
     ],
   },
@@ -68,7 +69,8 @@ Front End G4 - ONE.
 Business Agility G4 - ONE.
 Emprendimiento G4 - ONE.
 React G4 - ONE.
-        `
+        `,
+        url: ''
       },
     ],
   },
@@ -83,7 +85,8 @@ React G4 - ONE.
 Foco: Enfocarse trae más resultados para el día a día.
 Hábitos: Ser productivo para cumplir sus metas personales.
 Productividad: Estrategias para actividades diarias.
-        `
+        `,
+        url: "https://app.aluracursos.com/degree/certificate/fdd78867-cc8a-419b-8b63-38c2e590b6cb"
       },
       {
         title: "Principiante en Programación G4 - ONE",
@@ -96,7 +99,8 @@ HTML5 y CSS3 parte 2: Posicionamiento, listas y navegación.
 HTML5 y CSS3 parte 3: Trabajando con formularios y tablas.
 HTML5 y CSS3 parte 4: Avanzando en CSS.
 Git y GitHub: controle y comparta su código.
-        `
+        `,
+        url: "https://app.aluracursos.com/degree/certificate/2ab2f7a1-0ca9-424f-908f-360276e8fae8"
       },
       {
         title: "HTML & CSS",
@@ -104,7 +108,8 @@ Git y GitHub: controle y comparta su código.
         description: `Flexbox: Posicione elementos en la pantalla.
 Layouts Responsivos: Trabajando con layouts mobile.
 Arquitectura CSS: descomplicando los problemas.
-        `
+        `,
+        url: "https://app.aluracursos.com/degree/certificate/f59651bf-0c47-41a2-9e50-dfe4c636adc2"
       },
       {
         title: "FRONT END G4 - ONE",
@@ -115,7 +120,8 @@ JS en la Web: Validación de Formularios y HTML5.
 JavaScript: Introducción a la Orientación a Objetos.
 JavaScript: Herencia e Interfaces en Orientación a Objetos.
 JS en la Web: CRUD con JavaScript asíncrono.
-        `
+        `,
+        url: "https://app.aluracursos.com/degree/certificate/8379a202-1f39-4757-87db-be9b2f23d76f"
       },
       {
         title: "Business Agility G4 - ONE",
@@ -124,7 +130,8 @@ JS en la Web: CRUD con JavaScript asíncrono.
 Gestión ágil: Liderando el cambio en un ambiente de agilidad.
 La Empresa Ágil: Introduciendo el Business Agility en las organizaciones.
 Organización de equipos ágiles: Las funciones existentes en un equipo.
-        `
+        `,
+        url: "https://app.aluracursos.com/degree/certificate/a7e0db13-7673-4590-85cf-c6c6338e9a06"
       },
       {
         title: "Emprendimiento G4 - ONE",
@@ -134,7 +141,8 @@ Emprendimiento: De la idea al plan de negocios.
 Pitch para entrevistas: Haga presentaciones impactantes.
 Business Model Canvas parte I: Un modelo poderoso para tu negocio.
 Business Model Canvas parte II: Avanzando con tu modelo de negocios.
-        `
+        `,
+        url: "https://app.aluracursos.com/degree/certificate/ced5b8d7-3e3f-4c7f-b5f0-6e6d6714a101"
       },
       {
         title: "REACT G4 - ONE",
@@ -145,7 +153,8 @@ React Router: Navegación en una SPA.
 React: Utilizando Styled Components.
 React: Function Components.
 React: Hooks, contextos y buenas prácticas.
-        `
+        `,
+        url: "https://app.aluracursos.com/degree/certificate/0099dda8-4e41-489f-82df-8aab8c7a8a09"
       },
     ],
   }

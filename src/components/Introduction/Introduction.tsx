@@ -21,7 +21,7 @@ export function Introduction() {
                         exit="hidden"
                     >
 
-                        <h1 className="mt-10 mb-5 md:mt-0 text-xl lg:text-2xl leading-tight md:mb-10">Hola, soy<br />
+                        <h1 className="mt-36 sm:mt-10 mb-5 md:mt-0 text-xl lg:text-2xl leading-tight md:mb-10">Hola, soy<br />
                             <span className="text-2xl lg:text-4xl">Retford O&#39;briam</span><br />
                             <span className="text-secondary mb-5 text-[1.75rem] lg:text-5xl leading-tight md:mb-10">Desarrollador FrontEnd</span>
                         </h1>
@@ -30,7 +30,7 @@ export function Introduction() {
                             Egresado de la carrera Ingeniería de Sistemas, apasionado por crear sitios web atractivos y funcionales. Mi enfoque está en convertir diseños en código limpio y eficiente, siempre buscando oportunidades para aprender y crecer en este campo. Estoy listo para enfrentar desafíos y colaborar en proyectos web emocionantes.
                         </p>
 
-                        <div className="flex flex-col items-center gap-3 md:gap-10 md:flex-row">
+                        <div className="flex flex-col items-center gap-3 mb-24 sm:mb-0 md:gap-10 md:flex-row">
                             <a href="/projects" className="px-6 py-3 my-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                                 Ver proyectos
                             </a>

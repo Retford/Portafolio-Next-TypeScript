@@ -44,19 +44,21 @@ export function About() {
                     })}
                 </div>
                 <div className="flex flex-col gap-4 max-w-4xl p-4 mx-auto bg-secondary/20 rounded-xl lg:min-h-[560px]">
-                    {dataAboutSkills[index].skills.map((items, index) => (
+                    {dataAboutSkills[index].skills.map(({ title, url, date, description }, index) => (
                         <div key={index} className="flex lg:max-w-xl gap-4 mx-auto flex-wrap">
-                            <h3 className="text-[#00FF00] font-black">
-                                <span>{items.title}</span> | <span>{items.date}</span>
-                            </h3>
-                            {items?.description.split('\n').map((line, lineIndex) => (
+                            <a href={url} target="_blank">
+                                <h3 className="text-[#00FF00] font-black">
+                                    <span>{title}</span> | <span>{date}</span>
+                                </h3>
+                            </a>
+                            {description.split('\n').map((line, lineIndex) => (
                                 <p key={lineIndex} className="text-sm w-full">{line}</p>
                             )
                             )}
                         </div>
                     ))}
                 </div>
-            </motion.div>
-        </div>
+            </motion.div >
+        </div >
     )
 }
