@@ -101,7 +101,7 @@ export const cardContent = [
     title: "App Movie",
     description:
       "",
-    url: "https://www.retford.games/",
+    url: "https://movie-app-mu-nine.vercel.app/",
     imageUrl: "/project-7.png",
     skills: [
       {
@@ -209,7 +209,7 @@ export const cardContent = [
     title: "Portafolio NextJS",
     description:
       "",
-    url: "https://retford.software/",
+    url: "https://portafolio-e9ypfx70r-retford.vercel.app/",
     imageUrl: "/project-15.png",
     skills: [
       {
