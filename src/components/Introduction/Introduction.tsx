@@ -27,7 +27,7 @@ export function Introduction() {
                         </h1>
 
                         <p className="max-w-sm mb-10 text-lg sm:max-w-full md:max-w-xs lg:max-w-sm xl:max-w-lg 2xl:max-w-2xl md:mx-0 md:mb-16 md:text-base lg:text-xl">
-                            Egresado de la carrera Ingeniería de Sistemas, apasionado por crear sitios web atractivos y funcionales. Mi enfoque está en convertir diseños en código limpio y eficiente, siempre buscando oportunidades para aprender y crecer en este campo. Estoy listo para enfrentar desafíos y colaborar en proyectos web emocionantes.
+                        Bachiller en Ingeniería de Sistemas con pasión por el desarrollo web. Especializado en la creación de sitios web atractivos, funcionales y optimizados. Experto en transformar diseños en código limpio, eficiente y escalable. Con enfoque en mejorar la experiencia del usuario y en el uso de tecnologías modernas. Comprometido con el aprendizaje continuo y la búsqueda de soluciones innovadoras. Dispuesto a enfrentar nuevos desafíos y colaborar en proyectos web dinámicos.
                         </p>
 
                         <div className="flex flex-col items-center gap-3 mb-24 sm:mb-0 md:gap-10 md:flex-row">
