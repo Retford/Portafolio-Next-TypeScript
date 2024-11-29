@@ -39,15 +39,14 @@ export function Introduction() {
             </h1>
 
             <p className='max-w-sm mb-10 text-lg sm:max-w-full md:max-w-xs lg:max-w-sm xl:max-w-lg 2xl:max-w-2xl md:mx-0 md:mb-16 md:text-base lg:text-xl'>
-              Bachiller en Ingeniería de Sistemas, especializado en la creación
-              de sitios modernos y optimizados. Apasionado por transformar
-              diseños en código limpio y escalable, priorizando la experiencia
-              del usuario y la funcionalidad. Con conocimiento en la
-              implementación de tecnologías web actuales y en la optimización
-              del rendimiento de sitios. Comprometido con el aprendizaje
-              continuo y orientado a soluciones innovadoras que aporten valor.
-              Dispuesto a enfrentar nuevos desafíos y a colaborar en equipos
-              para construir experiencias digitales de alto impacto.
+              Bachiller en Ingeniería de Sistemas con experiencia en desarrollo
+              frontend y una sólida base técnica. He trabajado en proyectos
+              donde optimicé sitios web, desarrollé componentes reutilizables y
+              gestioné servidores LAMP/LEMP, logrando soluciones escalables y
+              funcionales. Domino tecnologías como React, NextJS, TailwindCSS,
+              HTML, CSS y JavaScript, además de herramientas como WordPress y
+              WooCommerce. Apasionado por el desarrollo web, estoy enfocado en
+              crear plataformas innovadoras y de alto impacto.
             </p>
 
             <div className='flex flex-col items-center gap-3 mb-24 sm:mb-0 md:gap-10 md:flex-row'>
